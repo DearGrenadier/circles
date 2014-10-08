@@ -1,0 +1,107 @@
+
+body {
+	background: #eeeee6;
+}
+
+#container {
+	width:338px;
+	height: 400px;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.big-row-wrap {
+	position: absolute;
+	width: 336px;
+	height: 102px;
+	margin: auto;
+	border: 1px solid #000;
+	left:0;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.midle-row-wrap {
+	position: absolute;
+	width: 276px;
+	height: 82px;
+	margin: auto;
+	border: 1px solid #000;
+	left: 29px;
+	opacity: 1;
+}
+
+.little-row-wrap {
+	position: absolute;
+	width: 216px;
+	height: 62px;
+	margin: auto;
+	border: 1px solid #000;
+	left: 59px;
+	opacity: 1;
+}
+
+.out-row-wrap {
+	position: absolute;
+	width: 156px;
+	height: 42px;
+	margin: auto;
+	border: 1px solid #000;
+	left: 89px;
+	opacity: 0;
+}
+
+.big-row-wrap div {
+	width: 80px;
+	height: 80px;
+	border-radius: 80px;
+	float: left;
+	margin: 10px 15px;
+	text-align: center;
+	line-height: 80px;
+	font-family: sans-serif;
+	font-size: 38px;
+	font-family: 'Aspergit';
+	border: 1px solid #000;
+}
+
+.midle-row-wrap div {
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	float: left;
+	margin: 10px 15px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 28px;
+	font-family: 'Aspergit';
+	border: 1px solid #000;
+}
+.little-row-wrap div {
+	width: 40px;
+	height: 40px;
+	border-radius: 40px;
+	float: left;
+	margin: 10px 15px;
+	text-align: center;
+	line-height: 40px;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-family: 'Aspergit';
+	border: 1px solid #000;
+}
+
+.out-row-wrap div {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	float: left;
+	margin: 10px 15px;
+	text-align: center;
+	line-height: 20px;
+	font-family: sans-serif;
+	font-size: 8px;
+	font-family: 'Aspergit';
+	border: 1px solid #000;
+}
